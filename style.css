@@ -1,0 +1,130 @@
+:root{
+    --navbar:#fcffb27a;
+    --color: #D14D72;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--color);
+}
+
+.carousel-item > img {
+    height: 90vh;
+ }
+
+
+.nav-link:hover{
+    color: var(--color);
+}
+
+.navbar{
+    padding: 2rem;
+}
+
+.shadow{
+   background-color:white;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-toggler[aria-expanded="true"]{
+    border-color: var(--color);
+}
+
+form .form-control{
+    border: none;
+}
+
+form .form-control:focus{
+    box-shadow: none;
+    border: none;
+    outline: 0;
+}
+
+.search-icone{
+    position: absolute;
+    top: 50;
+    left: 160px;
+}
+
+.search-icone{
+    color: var(--color);
+}
+
+.our-works{
+    letter-spacing: 1px;
+}
+
+.row-icone{
+    background-color: rgb(133 130 130 / 8%);
+}
+.icons{
+    width: 30px;
+    height: 30px;
+}
+/*********************_Landing_**************************/
+
+.image-flower{
+    width: 150px;
+}
+
+.input-group{
+    margin: 2rem auto;
+    width: 60%;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid lavender;
+}
+
+#basic-addon2{
+    
+    background-color: black;
+    color: white;
+    width: 30%;
+}
+
+.input-group-text{
+    text-align: center;
+    align-items: center !important;
+}
+
+.footer{
+    background-color: #ffe3e14a;
+    padding-bottom: 3rem;
+}
+
+.customere{
+    padding-top: 5rem;
+}
+
+.bordre{
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.span a, p a {
+    text-decoration: none;
+    color: #0000006b;
+}
+
+
+.image-footer{
+    width: 50px;
+    opacity: .6;
+}
+
+.span-color{
+    color: black;
+}
+
